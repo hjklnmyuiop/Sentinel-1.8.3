@@ -2,6 +2,7 @@
 Sentinel-1.8.3二次开发
 修改文件：
 1.sentinel-dashboard\src\main\java\com\alibaba\csp\sentinel\dashboard\controller\v2\FlowControllerV2中拉取，推送方式改用nacos
+
     @Autowired
     @Qualifier("flowRuleNacosProvider")
     private DynamicRuleProvider<List<FlowRuleEntity>> ruleProvider;
@@ -9,6 +10,7 @@ Sentinel-1.8.3二次开发
     @Qualifier("flowRuleNacosPublisher")
     private DynamicRulePublisher<List<FlowRuleEntity>> rulePublisher;
 2.将sentinel-dashbord项目中的sentinel-dashboard\src\test\java\com\alibaba\csp\sentinel\dashboard\rule\nacos文件夹拷贝到main文件夹下
+
 3.修改NacosConfig文件，添加nacos服务信息
 public class NacosConfig {
 
