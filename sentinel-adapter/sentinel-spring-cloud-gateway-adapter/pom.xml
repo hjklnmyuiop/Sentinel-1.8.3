@@ -13,8 +13,8 @@
     <packaging>jar</packaging>
 
     <properties>
-        <java.source.version>1.8</java.source.version>
-        <java.target.version>1.8</java.target.version>
+        <java.source.version>11</java.source.version>
+        <java.target.version>11</java.target.version>
         <spring.cloud.gateway.version>2.1.1.RELEASE</spring.cloud.gateway.version>
         <spring.boot.version>2.1.4.RELEASE</spring.boot.version>
         <spring.version>5.1.5.RELEASE</spring.version>

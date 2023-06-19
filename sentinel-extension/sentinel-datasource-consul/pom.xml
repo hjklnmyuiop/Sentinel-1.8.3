@@ -13,8 +13,8 @@
     <packaging>jar</packaging>
 
     <properties>
-        <java.source.version>1.8</java.source.version>
-        <java.target.version>1.8</java.target.version>
+        <java.source.version>11</java.source.version>
+        <java.target.version>11</java.target.version>
         <consul.version>1.4.5</consul.version>
         <consul.process.version>2.2.0</consul.process.version>
     </properties>
